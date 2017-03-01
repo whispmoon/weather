@@ -1,0 +1,97 @@
+body {
+    background-color: darkcyan;
+}
+
+img {
+    height: 90px;
+    width: 90px;
+    margin: auto;
+    border-radius: 7px;
+
+}
+
+img.gMap {
+    height: 200px;
+    width: 200px;
+
+}
+
+#forecast {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+
+.inlineForecast {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+
+}
+
+#cityTemp {
+    margin-left: 30px;
+}
+
+#cityTemp, #cityResults {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+span {
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+}
+
+dt {
+    font-weight: bold;
+}
+
+.hr {
+    background-color: lightgrey;
+    width: 70%;
+    height: 1px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#container, #container2 {
+    width: 500px;
+    padding-left: 10px;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    margin-bottom: 20px;
+    background-color: whitesmoke;
+    margin-left: 30px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    border-radius: 7px;
+
+}
+
+#cityName {
+    display: block;
+}
+
+#form, h3 {
+    text-align: center;
+    display: block;
+    margin-bottom: 30px;
+}
+
+#details {
+    display: flex;
+    flex-direction: row;
+
+}
+
+footer {
+    height: 50px;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+}
